@@ -93,6 +93,7 @@ credentials/
 
 # UV package manager
 .uv/
+uv.lock
 uv.lock.local
 .python-version
 .python-versions
@@ -104,7 +105,6 @@ uv.lock.local
 .cache/uv/
 __pycache__/
 
-# Note: uv.lock should be committed to ensure reproducible builds
 # Note: pyproject.toml should be committed as it defines the project
 
 # macOS
