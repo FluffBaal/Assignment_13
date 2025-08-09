@@ -94,6 +94,18 @@ credentials/
 # UV package manager
 .uv/
 uv.lock.local
+.python-version
+.python-versions
+
+# UV virtual environment (it creates .venv by default)
+# Already covered above in Virtual Environments section
+
+# UV cache
+.cache/uv/
+__pycache__/
+
+# Note: uv.lock should be committed to ensure reproducible builds
+# Note: pyproject.toml should be committed as it defines the project
 
 # macOS
 .DS_Store
