@@ -61,7 +61,6 @@ logs/
 *.log.*
 
 # Output files
-outputs/
 output/
 results/
 *.out
